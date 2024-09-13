@@ -5,9 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE-edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>It's My Portofolio</title>
-  <link rel="stylesheet" href="./Style.css" />
+  <link rel="stylesheet" href="./css/Style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-  <link rel="shortcut icon" href="./Android Chrome/icons8-instagram-3d-fluency-192.png">
+  <link rel="shortcut icon" href="./favicon/icons8-instagram-3d-fluency-192.png">
+  <script src="layout.js"></script>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
     <div class="main flex">
       <div class="main-one">
         <h1>Hi I am</h1>
-        <span class="auto">Muhammad Nailul Jihar</span>
+        <span id="element">Muhammad Nailul Jihar</span>
         <p>
           Hi My name is Muhammad Nailul Jihar,
           i am from Indonesia and
@@ -69,7 +70,7 @@
         <button>Live Preview</button>
       </div>
       <div class="projects-div flex div-3">
-        <img src="Images/Flex Mode.webp" alt="gowes">
+        <img src="" alt="gowes">
         <h3>Me</h3>
         <p>
           It's prototype
@@ -128,9 +129,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
-    var typed = new Typed('.element', {
-      strings: ["Muhammad Nailul Jihar", "Frontend Developer", "Student"],
-      typeSpeed: 30
+    var typed = new Typed('#element', {
+      strings: [" ", "Front End Developer", "Student at University Trunojoyo Madura", "Muhammad Nailul Jihar"],
+      typeSpeed: 50
     });
   </script>
 </body>
